@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DA26900446D4078E17EDAE0 /* Pods_Taggy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7FC6064436B9A1619FBA222 /* Pods_Taggy.framework */; };
+		9141EBF31D58889A00362CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9141EBF21D58889A00362CAD /* AppDelegate.swift */; };
+		9141EBFA1D58889A00362CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9141EBF91D58889A00362CAD /* Assets.xcassets */; };
+		9141EBFD1D58889A00362CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9141EBFB1D58889A00362CAD /* LaunchScreen.storyboard */; };
+		9141EC051D589C2E00362CAD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9141EC041D589C2E00362CAD /* LoginViewController.swift */; };
+		9141EC071D589C4100362CAD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9141EC061D589C4100362CAD /* HomeViewController.swift */; };
+		9141EC091D589C6900362CAD /* MessagesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9141EC081D589C6900362CAD /* MessagesListViewController.swift */; };
+		9141EC0B1D589C7C00362CAD /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9141EC0A1D589C7C00362CAD /* MessagesViewController.swift */; };
+		9141EC0D1D589C8600362CAD /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9141EC0C1D589C8600362CAD /* SettingsViewController.swift */; };
+		9141EC0F1D589CA100362CAD /* GenerateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9141EC0E1D589CA100362CAD /* GenerateViewController.swift */; };
+		9141EC111D58A18B00362CAD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9141EC101D58A18B00362CAD /* GoogleService-Info.plist */; };
+		9141EC151D58A25000362CAD /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9141EC141D58A25000362CAD /* OpenSans-Regular.ttf */; };
+		9141EC171D58DCF100362CAD /* LocalAreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9141EC161D58DCF100362CAD /* LocalAreaViewController.swift */; };
+		9141EC191D58E86100362CAD /* BebasNeueRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9141EC181D58E86100362CAD /* BebasNeueRegular.otf */; };
+		9141EC1B1D58EDCE00362CAD /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9141EC1A1D58EDCE00362CAD /* ScannerViewController.swift */; };
+		9141EC1D1D58F08E00362CAD /* CreateTaggyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9141EC1C1D58F08E00362CAD /* CreateTaggyViewController.swift */; };
+		9141EC1F1D58F09900362CAD /* TaggyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9141EC1E1D58F09900362CAD /* TaggyDetailViewController.swift */; };
+		9141EC211D58F35900362CAD /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9141EC201D58F35900362CAD /* HomeTableViewCell.swift */; };
+		91C32AA51D5A130800072EEC /* UnactivatedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C32AA41D5A130800072EEC /* UnactivatedTableViewCell.swift */; };
+		91C32AA71D5A3CC600072EEC /* MessagesListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C32AA61D5A3CC600072EEC /* MessagesListTableViewCell.swift */; };
+		91C32AA91D5B5E3400072EEC /* SendMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C32AA81D5B5E3400072EEC /* SendMessageViewController.swift */; };
+		91C32AAB1D5B8FEA00072EEC /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C32AAA1D5B8FEA00072EEC /* SettingsTableViewCell.swift */; };
+		91C32AAD1D5C9B5900072EEC /* SettingsChangeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C32AAC1D5C9B5900072EEC /* SettingsChangeTableViewCell.swift */; };
+		91C32AAF1D5C9B6700072EEC /* SettingsChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C32AAE1D5C9B6700072EEC /* SettingsChangeViewController.swift */; };
+		91C32AB31D5E1B0500072EEC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C32AB21D5E1B0500072EEC /* MapViewController.swift */; };
+		91C32AB51D5E209900072EEC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C32AB41D5E209900072EEC /* MapKit.framework */; };
+		91C32AB71D5E357900072EEC /* LostLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C32AB61D5E357900072EEC /* LostLocationViewController.swift */; };
+		91C32ABB1D5F683700072EEC /* CreateTaggyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C32ABA1D5F683700072EEC /* CreateTaggyTableViewCell.swift */; };
+		91C32ABF1D5F847F00072EEC /* TaggyDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C32ABE1D5F847F00072EEC /* TaggyDetailTableViewCell.swift */; };
+		91C32AC11D5F8F0100072EEC /* SendMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C32AC01D5F8F0100072EEC /* SendMessageTableViewCell.swift */; };
+		91C32AC51D61FADB00072EEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91C32AC41D61FADB00072EEC /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9141EBEF1D58889A00362CAD /* Taggy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taggy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9141EBF21D58889A00362CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9141EBF91D58889A00362CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9141EBFC1D58889A00362CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9141EBFE1D58889A00362CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9141EC041D589C2E00362CAD /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9141EC061D589C4100362CAD /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9141EC081D589C6900362CAD /* MessagesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesListViewController.swift; sourceTree = "<group>"; };
+		9141EC0A1D589C7C00362CAD /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		9141EC0C1D589C8600362CAD /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9141EC0E1D589CA100362CAD /* GenerateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerateViewController.swift; sourceTree = "<group>"; };
+		9141EC101D58A18B00362CAD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9141EC141D58A25000362CAD /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		9141EC161D58DCF100362CAD /* LocalAreaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalAreaViewController.swift; sourceTree = "<group>"; };
+		9141EC181D58E86100362CAD /* BebasNeueRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeueRegular.otf; sourceTree = "<group>"; };
+		9141EC1A1D58EDCE00362CAD /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		9141EC1C1D58F08E00362CAD /* CreateTaggyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTaggyViewController.swift; sourceTree = "<group>"; };
+		9141EC1E1D58F09900362CAD /* TaggyDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaggyDetailViewController.swift; sourceTree = "<group>"; };
+		9141EC201D58F35900362CAD /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		91C32AA41D5A130800072EEC /* UnactivatedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnactivatedTableViewCell.swift; sourceTree = "<group>"; };
+		91C32AA61D5A3CC600072EEC /* MessagesListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesListTableViewCell.swift; sourceTree = "<group>"; };
+		91C32AA81D5B5E3400072EEC /* SendMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendMessageViewController.swift; sourceTree = "<group>"; };
+		91C32AAA1D5B8FEA00072EEC /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		91C32AAC1D5C9B5900072EEC /* SettingsChangeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsChangeTableViewCell.swift; sourceTree = "<group>"; };
+		91C32AAE1D5C9B6700072EEC /* SettingsChangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsChangeViewController.swift; sourceTree = "<group>"; };
+		91C32AB21D5E1B0500072EEC /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		91C32AB41D5E209900072EEC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		91C32AB61D5E357900072EEC /* LostLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LostLocationViewController.swift; sourceTree = "<group>"; };
+		91C32ABA1D5F683700072EEC /* CreateTaggyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTaggyTableViewCell.swift; sourceTree = "<group>"; };
+		91C32ABE1D5F847F00072EEC /* TaggyDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaggyDetailTableViewCell.swift; sourceTree = "<group>"; };
+		91C32AC01D5F8F0100072EEC /* SendMessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendMessageTableViewCell.swift; sourceTree = "<group>"; };
+		91C32AC41D61FADB00072EEC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E2731FEFA36A5C0AC45912D8 /* Pods-Taggy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taggy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Taggy/Pods-Taggy.release.xcconfig"; sourceTree = "<group>"; };
+		ED4CEC1219227BB01CA6BC6F /* Pods-Taggy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taggy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Taggy/Pods-Taggy.debug.xcconfig"; sourceTree = "<group>"; };
+		F7FC6064436B9A1619FBA222 /* Pods_Taggy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Taggy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9141EBEC1D58889A00362CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C32AB51D5E209900072EEC /* MapKit.framework in Frameworks */,
+				4DA26900446D4078E17EDAE0 /* Pods_Taggy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18737F92B3E320813AF5661C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91C32AB41D5E209900072EEC /* MapKit.framework */,
+				F7FC6064436B9A1619FBA222 /* Pods_Taggy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47D92127CF834E8A4F66829D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED4CEC1219227BB01CA6BC6F /* Pods-Taggy.debug.xcconfig */,
+				E2731FEFA36A5C0AC45912D8 /* Pods-Taggy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9141EBE61D58889A00362CAD = {
+			isa = PBXGroup;
+			children = (
+				9141EBF11D58889A00362CAD /* Taggy */,
+				9141EBF01D58889A00362CAD /* Products */,
+				47D92127CF834E8A4F66829D /* Pods */,
+				18737F92B3E320813AF5661C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9141EBF01D58889A00362CAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9141EBEF1D58889A00362CAD /* Taggy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9141EBF11D58889A00362CAD /* Taggy */ = {
+			isa = PBXGroup;
+			children = (
+				9141EC181D58E86100362CAD /* BebasNeueRegular.otf */,
+				9141EC101D58A18B00362CAD /* GoogleService-Info.plist */,
+				9141EBFE1D58889A00362CAD /* Info.plist */,
+				9141EBF21D58889A00362CAD /* AppDelegate.swift */,
+				91C32ABA1D5F683700072EEC /* CreateTaggyTableViewCell.swift */,
+				9141EC1C1D58F08E00362CAD /* CreateTaggyViewController.swift */,
+				9141EC0E1D589CA100362CAD /* GenerateViewController.swift */,
+				9141EC201D58F35900362CAD /* HomeTableViewCell.swift */,
+				91C32AC41D61FADB00072EEC /* Main.storyboard */,
+				9141EC061D589C4100362CAD /* HomeViewController.swift */,
+				9141EC161D58DCF100362CAD /* LocalAreaViewController.swift */,
+				9141EC041D589C2E00362CAD /* LoginViewController.swift */,
+				91C32AB61D5E357900072EEC /* LostLocationViewController.swift */,
+				91C32AB21D5E1B0500072EEC /* MapViewController.swift */,
+				91C32AA61D5A3CC600072EEC /* MessagesListTableViewCell.swift */,
+				9141EC081D589C6900362CAD /* MessagesListViewController.swift */,
+				9141EC0A1D589C7C00362CAD /* MessagesViewController.swift */,
+				9141EC1A1D58EDCE00362CAD /* ScannerViewController.swift */,
+				91C32AC01D5F8F0100072EEC /* SendMessageTableViewCell.swift */,
+				91C32AA81D5B5E3400072EEC /* SendMessageViewController.swift */,
+				91C32AAC1D5C9B5900072EEC /* SettingsChangeTableViewCell.swift */,
+				91C32AAE1D5C9B6700072EEC /* SettingsChangeViewController.swift */,
+				91C32AAA1D5B8FEA00072EEC /* SettingsTableViewCell.swift */,
+				9141EC0C1D589C8600362CAD /* SettingsViewController.swift */,
+				91C32ABE1D5F847F00072EEC /* TaggyDetailTableViewCell.swift */,
+				9141EC1E1D58F09900362CAD /* TaggyDetailViewController.swift */,
+				91C32AA41D5A130800072EEC /* UnactivatedTableViewCell.swift */,
+				9141EC141D58A25000362CAD /* OpenSans-Regular.ttf */,
+				9141EBF91D58889A00362CAD /* Assets.xcassets */,
+				9141EBFB1D58889A00362CAD /* LaunchScreen.storyboard */,
+			);
+			path = Taggy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9141EBEE1D58889A00362CAD /* Taggy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9141EC011D58889A00362CAD /* Build configuration list for PBXNativeTarget "Taggy" */;
+			buildPhases = (
+				51560C59420859DDA2BF8C9F /* [CP] Check Pods Manifest.lock */,
+				9141EBEB1D58889A00362CAD /* Sources */,
+				9141EBEC1D58889A00362CAD /* Frameworks */,
+				9141EBED1D58889A00362CAD /* Resources */,
+				A707CB048A11571B24774C87 /* [CP] Embed Pods Frameworks */,
+				3620B031B0EE882AFDCCDE78 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Taggy;
+			productName = Taggy;
+			productReference = 9141EBEF1D58889A00362CAD /* Taggy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9141EBE71D58889A00362CAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ross Hunter";
+				TargetAttributes = {
+					9141EBEE1D58889A00362CAD = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3U87DTLEND;
+						LastSwiftMigration = 0820;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 9141EBEA1D58889A00362CAD /* Build configuration list for PBXProject "Taggy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9141EBE61D58889A00362CAD;
+			productRefGroup = 9141EBF01D58889A00362CAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9141EBEE1D58889A00362CAD /* Taggy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9141EBED1D58889A00362CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9141EBFD1D58889A00362CAD /* LaunchScreen.storyboard in Resources */,
+				9141EC191D58E86100362CAD /* BebasNeueRegular.otf in Resources */,
+				9141EC111D58A18B00362CAD /* GoogleService-Info.plist in Resources */,
+				91C32AC51D61FADB00072EEC /* Main.storyboard in Resources */,
+				9141EBFA1D58889A00362CAD /* Assets.xcassets in Resources */,
+				9141EC151D58A25000362CAD /* OpenSans-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3620B031B0EE882AFDCCDE78 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Taggy/Pods-Taggy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51560C59420859DDA2BF8C9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A707CB048A11571B24774C87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Taggy/Pods-Taggy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9141EBEB1D58889A00362CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9141EC0B1D589C7C00362CAD /* MessagesViewController.swift in Sources */,
+				91C32AA91D5B5E3400072EEC /* SendMessageViewController.swift in Sources */,
+				9141EC1D1D58F08E00362CAD /* CreateTaggyViewController.swift in Sources */,
+				9141EC091D589C6900362CAD /* MessagesListViewController.swift in Sources */,
+				9141EC051D589C2E00362CAD /* LoginViewController.swift in Sources */,
+				9141EC171D58DCF100362CAD /* LocalAreaViewController.swift in Sources */,
+				91C32AA71D5A3CC600072EEC /* MessagesListTableViewCell.swift in Sources */,
+				91C32AC11D5F8F0100072EEC /* SendMessageTableViewCell.swift in Sources */,
+				91C32AB31D5E1B0500072EEC /* MapViewController.swift in Sources */,
+				91C32AA51D5A130800072EEC /* UnactivatedTableViewCell.swift in Sources */,
+				91C32AAD1D5C9B5900072EEC /* SettingsChangeTableViewCell.swift in Sources */,
+				91C32AAF1D5C9B6700072EEC /* SettingsChangeViewController.swift in Sources */,
+				9141EC1B1D58EDCE00362CAD /* ScannerViewController.swift in Sources */,
+				91C32ABB1D5F683700072EEC /* CreateTaggyTableViewCell.swift in Sources */,
+				91C32ABF1D5F847F00072EEC /* TaggyDetailTableViewCell.swift in Sources */,
+				9141EC211D58F35900362CAD /* HomeTableViewCell.swift in Sources */,
+				91C32AAB1D5B8FEA00072EEC /* SettingsTableViewCell.swift in Sources */,
+				91C32AB71D5E357900072EEC /* LostLocationViewController.swift in Sources */,
+				9141EBF31D58889A00362CAD /* AppDelegate.swift in Sources */,
+				9141EC1F1D58F09900362CAD /* TaggyDetailViewController.swift in Sources */,
+				9141EC071D589C4100362CAD /* HomeViewController.swift in Sources */,
+				9141EC0D1D589C8600362CAD /* SettingsViewController.swift in Sources */,
+				9141EC0F1D589CA100362CAD /* GenerateViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9141EBFB1D58889A00362CAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9141EBFC1D58889A00362CAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9141EBFF1D58889A00362CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9141EC001D58889A00362CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9141EC021D58889A00362CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED4CEC1219227BB01CA6BC6F /* Pods-Taggy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ross Hunter (7HGZXQHA6D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ross Hunter (7HGZXQHA6D)";
+				DEVELOPMENT_TEAM = 3U87DTLEND;
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Taggy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rosshunter.Taggy.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6849f321-f3e2-44ee-88f6-970048a8859a";
+				PROVISIONING_PROFILE_SPECIFIER = "Taggy Profile";
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = debugging;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		9141EC031D58889A00362CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2731FEFA36A5C0AC45912D8 /* Pods-Taggy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ross Hunter (3U87DTLEND)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ross Hunter (3U87DTLEND)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_OPTIMIZATION_LEVEL = 3;
+				INFOPLIST_FILE = Taggy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rosshunter.Taggy.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = debugging;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9141EBEA1D58889A00362CAD /* Build configuration list for PBXProject "Taggy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9141EBFF1D58889A00362CAD /* Debug */,
+				9141EC001D58889A00362CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9141EC011D58889A00362CAD /* Build configuration list for PBXNativeTarget "Taggy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9141EC021D58889A00362CAD /* Debug */,
+				9141EC031D58889A00362CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9141EBE71D58889A00362CAD /* Project object */;
+}

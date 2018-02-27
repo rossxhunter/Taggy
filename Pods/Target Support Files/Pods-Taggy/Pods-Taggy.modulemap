@@ -1,0 +1,6 @@
+framework module Pods_Taggy {
+  umbrella header "Pods-Taggy-umbrella.h"
+
+  export *
+  module * { export * }
+}
